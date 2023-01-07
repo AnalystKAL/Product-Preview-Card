@@ -1,0 +1,156 @@
+@media only screen and (min-width: 376px){
+    .flex-body {
+        height: 100%;
+        background-color: hsl(30, 38%, 92%);
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .flex-content {
+        background-color: white;
+        width: 500px;
+        height: 375px;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+      }
+      .product-img {
+        max-width: 100%;
+        max-height: 100%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .product-content {
+        padding-left: 25px;
+        max-height: 100%;
+      }
+      .product-name {
+        font-family: Fraunces, Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: hsl(212, 21%, 14%);
+        padding-top: 20px;
+        margin-right: 55px;
+      }
+      .product-description,
+      .product-type {
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        padding-top: 20px;
+        margin-right: 40px;
+      }
+      .product-price {
+        font-family: Fraunces, Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        padding-top: 20px;
+        color: hsl(158, 36%, 37%);
+      }
+      .prod-old-price {
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        padding-left: 10px;
+        vertical-align: center;
+      }
+      .button-div {
+        padding-top: 20px;
+      }
+      .cart-button {
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        border: 0;
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        vertical-align: middle;
+      }
+      html {
+        height: 100%;
+      }
+      button img {
+        vertical-align: middle;
+      }
+}
+
+@media only screen and (max-width: 375px) {
+  .flex-body {
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-content {
+    background-color: white;
+    width: 350px;
+    height: 95%;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 350px;
+
+  }
+  .product-img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+  }
+  .product-content {
+    padding-left: 25px;
+    max-height: 100%;
+  }
+  .product-name {
+    font-family: Fraunces, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: hsl(212, 21%, 14%);
+    padding-top: 20px;
+    margin-right: 55px;
+  }
+  .product-description,
+  .product-type {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 10px;
+    margin-right: 40px;
+  }
+  .product-price {
+    font-family: Fraunces, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+    color: hsl(158, 36%, 37%);
+  }
+  .prod-old-price {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    padding-left: 10px;
+    vertical-align: center;
+  }
+  .button-div {
+    padding-top: 20px;
+  }
+  .cart-button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    vertical-align: middle;
+  }
+  html {
+    height: 100%;
+  }
+  button img {
+    vertical-align: middle;
+  }
+}
